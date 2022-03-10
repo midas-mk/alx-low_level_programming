@@ -1,6 +1,10 @@
 #include <stdio.h>
 int main(void)
-/* using the puts function to print */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */ 
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
