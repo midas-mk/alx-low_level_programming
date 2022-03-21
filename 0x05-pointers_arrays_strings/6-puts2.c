@@ -13,9 +13,9 @@ void puts2(char *str)
 	{
 		if (i % 2 == 0)
 		{
-			_putchar(*(str + i));
+			_putchar(str[i]);
 		}
-		i += 1;
+		i++;
 	}
 	_putchar('\n');
 }
