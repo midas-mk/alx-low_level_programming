@@ -35,3 +35,7 @@
     Format: see example
     You are allowed to use the standard library
 
+8-Write a function that sets the value of a pointer to a char.
+    Prototype: void set_string(char **s, char *to);
+
+
