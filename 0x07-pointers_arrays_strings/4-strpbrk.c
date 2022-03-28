@@ -12,12 +12,12 @@ char *_strpbrk(char *s, char *accept)
 	char *s1 = s - 1;
 	int i;
 
-	do{
+	do {
 		s1++;
 		for (i = 0; *(accept + i) != '\0'; i++)
 			if (*s1 == *(accept + i))
 				return (s1);
-	}while (*s1 != '\0');
+	} while (*s1 != '\0');
 
 	return (0);
 }
